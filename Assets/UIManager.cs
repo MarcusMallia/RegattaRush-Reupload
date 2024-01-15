@@ -1,12 +1,14 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; 
 
 public class UIManager : MonoBehaviour
 {
-    public Text speedText; // Assign in Inspector
-    public Slider staminaSlider; // Assign in Inspector
-    public Text timerText; // Assign in Inspector
-
+    public Text speedText;          // Assign in Inspector
+    public Slider staminaSlider;    // Assign in Inspector
+    public Text timerText;          // Assign in Inspector
+    public GameObject gameOverPanel; // Assign in Inspector
+    public Text finalTimeText;
     private float startTime;
     private bool timerRunning = false;
 
@@ -24,14 +26,17 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
- 
         if (staminaSlider != null)
         {
-            staminaSlider.maxValue = 100; 
+            staminaSlider.maxValue = 100;
             staminaSlider.value = 100;
         }
-        
-        //StartTimer();  
+
+        // Initialize Game Over Panel to be hidden initially
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(false);
+        }
     }
 
     void Update()
@@ -79,8 +84,35 @@ public class UIManager : MonoBehaviour
         timerRunning = false;
         if (timerText != null)
         {
-            timerText.color = Color.yellow; // Example of changing the text color
+            timerText.color = Color.yellow;
+        }
+        ShowGameOverScreen(); // Show Game Over screen when timer finishes
+    }
+
+    public void ShowGameOverScreen()
+    {
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(true);
+            UpdateFinalTimeText();
         }
     }
-    
+    private void UpdateFinalTimeText()
+    {
+        if (finalTimeText != null && timerText != null)
+        {
+            finalTimeText.text = "Your Time: " + timerText.text; // Display the final time
+        }
+    }
+   
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("Timetrial");
+    }
+
+    public void ReturnToMenu()
+    {
+        
+        SceneManager.LoadScene("StartScene");
+    }
 }

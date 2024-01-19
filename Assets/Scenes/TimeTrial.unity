@@ -157,7 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   constantAcceleration: 0.2
   maxDeceleration: 10
-  maxSpeed: 150
+  maxSpeed: 15
   maxStamina: 100
   staminaDepletionRate: 125
   baseRefillRate: 10
@@ -1525,8 +1525,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200642178}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 185, y: 0.1, z: 0}
-  m_LocalScale: {x: 0.3642, y: 9.267992, z: 1}
+  m_LocalPosition: {x: 300.08, y: 0.06, z: 0}
+  m_LocalScale: {x: -0.9019164, y: 9.267992, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2

@@ -9,7 +9,8 @@ public class Boat : MonoBehaviour
     public float maxSpeed = 5f;  // Theoretical maximum speed
     private float currentSpeed = 0f;
     private bool lastKeyPressedLeft = false;
-
+    private bool canMove = false;
+    public float passiveDeceleration = 0.1f;
     // Stamina variables
     public float maxStamina = 100f;
     private float currentStamina;
@@ -28,10 +29,20 @@ public class Boat : MonoBehaviour
 
     void Update()
     {
-        HandleInput();
-        RefillStamina();
-        Debug.Log("Invoking OnBoatStateUpdated with Speed: " + currentSpeed + ", Stamina: " + currentStamina);
-        OnBoatStateUpdated?.Invoke(currentSpeed, currentStamina);
+        if (canMove)
+        {
+            HandleInput();
+            RefillStamina();
+
+            // Calculate deceleration for logging
+            float currentDeceleration = CalculateDeceleration(currentStamina);
+
+            // Log current speed, stamina, and deceleration
+            Debug.Log("Speed: " + currentSpeed + ", Stamina: " + currentStamina + ", Deceleration: " + currentDeceleration);
+
+            OnBoatStateUpdated?.Invoke(currentSpeed, currentStamina);
+            currentSpeed = Mathf.Clamp(currentSpeed, 0, maxSpeed);
+        }
     }
 
     void FixedUpdate()
@@ -44,31 +55,70 @@ public class Boat : MonoBehaviour
         }
 
         rb.velocity = new Vector2(currentSpeed, rb.velocity.y);
+        
+        float currentDynamicDeceleration = CalculateDeceleration(currentStamina);
+    
+        if (!Input.anyKey)
+        {
+            ApplyPassiveDeceleration();
+        }
+        else
+        {
+            // Apply dynamic deceleration during player input
+            currentSpeed -= currentDynamicDeceleration * Time.deltaTime;
+        }
+
+        currentSpeed = Mathf.Max(currentSpeed, 0);  // Ensure speed doesn't go negative
+        rb.velocity = new Vector2(currentSpeed, rb.velocity.y);
+    }
+    void ApplyPassiveDeceleration()
+    {
+        // Apply passive deceleration when there is no player input
+        currentSpeed -= passiveDeceleration * Time.deltaTime;
+    }
+    
+    public void EnableMovement()
+    {
+        canMove = true;
+    }
+    
+    public void DisableMovement()
+    {
+        canMove = false;
     }
 
     void HandleInput()
     {
+        float resistance = CalculateResistance(currentStamina);
+
+        // Apply resistance even during acceleration
+        float effectiveAcceleration = constantAcceleration * (1 - resistance);
+        
         if (currentStamina > 0)
         {
             if (Input.GetKeyDown(KeyCode.LeftArrow) && !lastKeyPressedLeft)
             {
-                IncreaseSpeed();
+                IncreaseSpeed(effectiveAcceleration);
                 lastKeyPressedLeft = true;
                 DecreaseStamina();
             }
             else if (Input.GetKeyDown(KeyCode.RightArrow) && lastKeyPressedLeft)
             {
-                IncreaseSpeed();
+                IncreaseSpeed(effectiveAcceleration);
                 lastKeyPressedLeft = false;
                 DecreaseStamina();
             }
         }
     }
-
-    void IncreaseSpeed()
+    float CalculateResistance(float currentStamina)
     {
-        // Increase the boat's speed based on a constant acceleration
-        currentSpeed = Mathf.Min(currentSpeed + constantAcceleration, maxSpeed);
+        // Example: Inversely proportional to stamina
+        return (1 - currentStamina / maxStamina) * maxDeceleration;
+    }
+    void IncreaseSpeed(float acceleration)
+    {
+        currentSpeed += acceleration;
+        currentSpeed = Mathf.Clamp(currentSpeed, 0, maxSpeed);
     }
 
     void DecreaseStamina()
@@ -79,7 +129,10 @@ public class Boat : MonoBehaviour
 
     void RefillStamina()
     {
-        currentStamina += baseRefillRate * Time.deltaTime;
+        float speedFactor = 1 - (currentSpeed / maxSpeed);  // Inverse relation to speed
+        float modifiedRefillRate = baseRefillRate * speedFactor;
+
+        currentStamina += modifiedRefillRate * Time.deltaTime;
         currentStamina = Mathf.Min(currentStamina, maxStamina);
     }
     float CalculateDeceleration(float stamina)

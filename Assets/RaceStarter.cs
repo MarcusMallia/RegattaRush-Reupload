@@ -7,7 +7,7 @@ public class RaceStarter : MonoBehaviour
     public Text startText; // Assign in Inspector
     public Text countdownText; // Assign in Inspector
     private UIManager uiManager; // Reference to your UIManager
-
+    private Boat playerBoat;
     private bool raceStarted = false;
 
     void Start()
@@ -20,6 +20,12 @@ public class RaceStarter : MonoBehaviour
         if (countdownText != null) 
         {
             countdownText.gameObject.SetActive(false); // Ensure countdown text is hidden initially
+        }
+        
+        playerBoat = FindObjectOfType<Boat>();
+        if (playerBoat != null)
+        {
+            playerBoat.DisableMovement();
         }
     }
 
@@ -53,6 +59,11 @@ public class RaceStarter : MonoBehaviour
 
         countdownText.gameObject.SetActive(false);
         StartRace();
+        
+        if (playerBoat != null)
+        {
+            playerBoat.EnableMovement();
+        }
     }
 
     void StartRace()

@@ -4,10 +4,10 @@ using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
-    public Text speedText;          // Assign in Inspector
-    public Slider staminaSlider;    // Assign in Inspector
-    public Text timerText;          // Assign in Inspector
-    public GameObject gameOverPanel; // Assign in Inspector
+    public Text speedText;         
+    public Slider staminaSlider;   
+    public Text timerText;          
+    public GameObject gameOverPanel; 
     public Text finalTimeText;
     private float startTime;
     private bool timerRunning = false;

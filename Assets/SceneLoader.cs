@@ -3,10 +3,29 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    public GameObject instructionsPanel;
+    
+    void Start()
+    {
+        // Hide instructions panel on start
+        if (instructionsPanel != null)
+        {
+            instructionsPanel.SetActive(false);
+        }
+    }
     public void LoadTimeTrial()
     {
         SceneManager.LoadScene("TimeTrial"); 
+        
     }
+    public void ToggleInstructions()
+    {
+        if (instructionsPanel != null)
+        {
+            bool isActive = instructionsPanel.activeSelf;
+            instructionsPanel.SetActive(!isActive);
+        }
+    }
+   
 }
 
-// Attach this script to an empty GameObject in your start scene.

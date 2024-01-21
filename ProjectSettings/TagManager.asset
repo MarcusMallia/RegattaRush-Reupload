@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - FinishLine
+  - FinishLinePlayer2
+  - FinishLinePlayer1
   layers:
   - Default
   - TransparentFX

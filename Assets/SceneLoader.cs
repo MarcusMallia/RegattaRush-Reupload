@@ -18,6 +18,12 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("TimeTrial"); 
         
     }
+    
+    public void LoadVersus()
+    {
+        SceneManager.LoadScene("Versus"); 
+        
+    }
     public void ToggleInstructions()
     {
         if (instructionsPanel != null)

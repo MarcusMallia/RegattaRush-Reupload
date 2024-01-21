@@ -361,11 +361,11 @@ RectTransform:
   m_Children:
   - {fileID: 316611616}
   m_Father: {fileID: 1130674992}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 290, y: -218}
+  m_AnchoredPosition: {x: 310, y: -218}
   m_SizeDelta: {x: 320, y: 320}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &218422871
@@ -411,7 +411,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 218422872}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 151154034}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadVersus
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &218422872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -478,13 +490,14 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 568080111}
   m_Father: {fileID: 1867900861}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 36, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -390.1079, y: -25.1682}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &257530191
@@ -606,7 +619,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316611615}
   m_CullTransparentMesh: 1
---- !u!1 &708481240
+--- !u!1 &568080110
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -614,45 +627,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 708481241}
-  - component: {fileID: 708481243}
-  - component: {fileID: 708481242}
+  - component: {fileID: 568080111}
+  - component: {fileID: 568080113}
+  - component: {fileID: 568080112}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &708481241
+--- !u!224 &568080111
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 708481240}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 568080110}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1130674992}
-  m_RootOrder: 1
+  m_Father: {fileID: 257530190}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38.00006, y: 242.36174}
-  m_SizeDelta: {x: 748.0863, y: 231.1404}
+  m_AnchoredPosition: {x: -0.000083923, y: 220}
+  m_SizeDelta: {x: 1317.0481, y: 872.28}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &708481242
+--- !u!114 &568080112
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 708481240}
+  m_GameObject: {fileID: 568080110}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -663,27 +676,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 92
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 9
-    m_MaxSize: 94
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Regatta Rush
---- !u!222 &708481243
+  m_Sprite: {fileID: 21300000, guid: c11343d2aaec9104f9fe42d2af77e8de, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &568080113
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 708481240}
+  m_GameObject: {fileID: 568080110}
   m_CullTransparentMesh: 1
 --- !u!1 &1113781051
 GameObject:
@@ -926,7 +935,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1867900861}
-  - {fileID: 708481241}
   - {fileID: 1858962003}
   - {fileID: 218422870}
   - {fileID: 1859198489}
@@ -1210,10 +1218,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 20
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 44
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1232,14 +1240,20 @@ MonoBehaviour:
     Stamina: Stamina refills automatically when you\u2019re not pressing keys. The
     slower you go, the faster it refills.\r\n\nRace Dynamics:\r\nStarting the Race:
     The race begins after a 3-2-1 countdown. Wait for the \"Go!\" signal \u2013 you
-    can\u2019t move before then.\r\n\nSpeed Limit: Your boat has a maximum speed
-    limit. Pushing too hard can deplete stamina quickly without increasing speed.\r\n\nFinish
-    Line: Race to the finish line as fast as you can! Your time will be recorded.\r\n\nStrategy
-    Tips:\r\nBalance is Key: Managing your stamina wisely is crucial. Don\u2019t
-    exhaust it too quickly!\r\nAdapt Your Speed: Sometimes, slowing down momentarily
-    to regain stamina can lead to a faster overall time.\r\n\nEnd of Race:\r\nAfter
-    crossing the finish line, your race time will be displayed. Aim to beat your
-    best time or challenge others!\r\nGood luck and happy racing!\r\n"
+    can\u2019t move before then.\r\n\nModes:\r\nTime Trial Mode:\r\nSolo Racing:
+    Race against the clock to set your personal best time.\r\nVersus Mode:\r\nDual
+    Control: Player 1 uses the Left and Right Arrow Keys, while Player 2 uses Z and
+    C keys for navigation.\r\nSimultaneous Start: Both players start the race at
+    the same time after the countdown.\r\nWinning the Race: The first player to cross
+    the finish line wins. The winner and their time are displayed at the end.\n\nSpeed
+    Limit: Your boat has a maximum speed limit. Pushing too hard can deplete stamina
+    quickly without increasing speed.\r\n\nFinish Line: Race to the finish line as
+    fast as you can! Your time will be recorded.\r\n\nStrategy Tips:\r\nBalance is
+    Key: Managing your stamina wisely is crucial. Don\u2019t exhaust it too quickly!\r\nAdapt
+    Your Speed: Sometimes, slowing down momentarily to regain stamina can lead to
+    a faster overall time.\r\n\nEnd of Race:\r\nAfter crossing the finish line, your
+    race time will be displayed. Aim to beat your best time or challenge others!\r\nGood
+    luck and happy racing!\r\n"
 --- !u!222 &1602733455
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1318,7 +1332,7 @@ RectTransform:
   - {fileID: 1602733453}
   - {fileID: 1379533458}
   m_Father: {fileID: 1130674992}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1357,11 +1371,11 @@ RectTransform:
   m_Children:
   - {fileID: 1400347802}
   m_Father: {fileID: 1130674992}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -247, y: -218}
+  m_AnchoredPosition: {x: -306, y: -218}
   m_SizeDelta: {x: 320, y: 320}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1858962004
@@ -1490,11 +1504,11 @@ RectTransform:
   m_Children:
   - {fileID: 1113781052}
   m_Father: {fileID: 1130674992}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 603, y: 327}
+  m_AnchoredPosition: {x: -0.000039101, y: -342}
   m_SizeDelta: {x: 189.33, y: 189.3264}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1859198490

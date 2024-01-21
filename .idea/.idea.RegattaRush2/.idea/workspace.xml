@@ -3,90 +3,190 @@
   <component name="ChangeListManager">
     <list default="true" id="bfbd113c-75c5-4d10-a6d8-860e7ee40d2b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RegattaRush2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RegattaRush2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Boat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Boat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Beautiful Dreamer-LT.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Beautiful Dreamer-LT.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Beautiful Dreamer.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Beautiful Dreamer.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Cloudy_Shadow.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Cloudy_Shadow.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Constant_Battle.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Constant_Battle.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Darksider-LT.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Darksider-LT.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Darksider.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Darksider.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Death_Spiral-LT.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Death_Spiral-LT.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Death_Spiral.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Death_Spiral.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Disast'n'Groove-LT.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Disast'n'Groove-LT.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Disast'n'Groove.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Disast'n'Groove.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Face_The_Force.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Face_The_Force.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Mysterious_Zone-LT.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Mysterious_Zone-LT.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Mysterious_Zone.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Mysterious_Zone.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Nightmare-LT.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Nightmare-LT.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Nightmare.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Nightmare.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Pressure-LT.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Pressure-LT.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Pressure.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Pressure.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Ready_To_Flight.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Ready_To_Flight.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Super_Dragon.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Super_Dragon.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Xross_Road_Xrisis-LT.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Xross_Road_Xrisis-LT.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Xross_Road_Xrisis.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Xross_Road_Xrisis.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Xross_Road_Xrisis_Long-LT.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Xross_Road_Xrisis_Long-LT.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Xross_Road_Xrisis_Long.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Xross_Road_Xrisis_Long.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Zrk.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/Repeat/Zrk.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/SongList.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/Music/SongList.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/ReadMe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FantomMusic/ReadMe.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/Title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/Title.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/back.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_07.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_08.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_09.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/number_10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_07.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_08.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_09.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/symbols/symbol_10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/level.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/level.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/music.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/quit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/quit.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/score.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/score.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/sfx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/sfx.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_07.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_08.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_09.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/texts/text_12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_07.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_08.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_09.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_12.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_13.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_14.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_15.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_17.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_18.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_19.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_20.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RPG&amp;Fantasy Mobile GUI/titles/title_21.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneLoader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TimeTrial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TimeTrial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/360_F_443693248_FFOUon01HIYUVLVPFIyhrzDlbmWN8XKq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/360_F_443693248_FFOUon01HIYUVLVPFIyhrzDlbmWN8XKq.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/Textures/Water Light Blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/Textures/Water Light Blue.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/Water Deep Blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/Water Deep Blue.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/—Pngtree—sports canoeing_6939451.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/—Pngtree—sports canoeing_6939451.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,12 +194,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/BoatVersus.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaceStarter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UIManagerVersus.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2aGYra9xCoQk6rfrFqGGsX2pUNS" />
   <component name="ProjectViewState">
@@ -171,7 +276,7 @@
       <workItem from="1703946591745" duration="13688000" />
       <workItem from="1704739890862" duration="6480000" />
       <workItem from="1705184737115" duration="4773000" />
-      <workItem from="1705681887607" duration="12039000" />
+      <workItem from="1705681887607" duration="26384000" />
     </task>
     <servers />
   </component>
